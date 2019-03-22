@@ -1,0 +1,11 @@
+.\objects\pwm.o: LIBRARY\driverlib\pwm.c
+.\objects\pwm.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\pwm.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pwm.o: .\LIBRARY\inc/hw_ints.h
+.\objects\pwm.o: .\LIBRARY\inc/hw_memmap.h
+.\objects\pwm.o: .\LIBRARY\inc/hw_pwm.h
+.\objects\pwm.o: .\LIBRARY\inc/hw_sysctl.h
+.\objects\pwm.o: .\LIBRARY\inc/hw_types.h
+.\objects\pwm.o: .\LIBRARY\driverlib/debug.h
+.\objects\pwm.o: .\LIBRARY\driverlib/interrupt.h
+.\objects\pwm.o: .\LIBRARY\driverlib/pwm.h

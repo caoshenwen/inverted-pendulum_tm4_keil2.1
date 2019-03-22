@@ -1,0 +1,11 @@
+.\objects\epi.o: LIBRARY\driverlib\epi.c
+.\objects\epi.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\epi.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\epi.o: .\LIBRARY\inc/hw_epi.h
+.\objects\epi.o: .\LIBRARY\inc/hw_ints.h
+.\objects\epi.o: .\LIBRARY\inc/hw_memmap.h
+.\objects\epi.o: .\LIBRARY\inc/hw_sysctl.h
+.\objects\epi.o: .\LIBRARY\inc/hw_types.h
+.\objects\epi.o: .\LIBRARY\driverlib/debug.h
+.\objects\epi.o: .\LIBRARY\driverlib/epi.h
+.\objects\epi.o: .\LIBRARY\driverlib/interrupt.h

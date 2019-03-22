@@ -1,0 +1,10 @@
+.\objects\des.o: LIBRARY\driverlib\des.c
+.\objects\des.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\des.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\des.o: .\LIBRARY\inc/hw_des.h
+.\objects\des.o: .\LIBRARY\inc/hw_ints.h
+.\objects\des.o: .\LIBRARY\inc/hw_memmap.h
+.\objects\des.o: .\LIBRARY\inc/hw_types.h
+.\objects\des.o: .\LIBRARY\driverlib/debug.h
+.\objects\des.o: .\LIBRARY\driverlib/des.h
+.\objects\des.o: .\LIBRARY\driverlib/interrupt.h
