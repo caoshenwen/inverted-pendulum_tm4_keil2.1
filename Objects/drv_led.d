@@ -1,7 +1,7 @@
 .\objects\drv_led.o: HARDWARE\drv_led.c
 .\objects\drv_led.o: HARDWARE\drv_led.h
-.\objects\drv_led.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\drv_led.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\drv_led.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\drv_led.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\drv_led.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\drv_led.o: .\LIBRARY\driverlib/debug.h
 .\objects\drv_led.o: .\LIBRARY\driverlib/gpio.h

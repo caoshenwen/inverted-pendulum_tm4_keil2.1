@@ -2,8 +2,8 @@
 .\objects\usr_tasks.o: USER\usr_tasks.h
 .\objects\usr_tasks.o: USER\priorities.h
 .\objects\usr_tasks.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\usr_tasks.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\usr_tasks.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usr_tasks.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\usr_tasks.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\usr_tasks.o: .\USER\FreeRTOSConfig.h
 .\objects\usr_tasks.o: .\FreeRTOS\include\projdefs.h
 .\objects\usr_tasks.o: .\FreeRTOS\include\portable.h
@@ -15,11 +15,11 @@
 .\objects\usr_tasks.o: .\FreeRTOS\include\queue.h
 .\objects\usr_tasks.o: .\FreeRTOS\include\semphr.h
 .\objects\usr_tasks.o: .\FreeRTOS\my_include.h
-.\objects\usr_tasks.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\usr_tasks.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\usr_tasks.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\usr_tasks.o: D:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usr_tasks.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\usr_tasks.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\usr_tasks.o: .\LIBRARY\utils/uartstdio.h
-.\objects\usr_tasks.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\usr_tasks.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\usr_tasks.o: .\FreeRTOS\my_include.h
 .\objects\usr_tasks.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\usr_tasks.o: .\LIBRARY\inc/hw_ints.h
@@ -52,3 +52,6 @@
 .\objects\usr_tasks.o: .\HARDWARE\ADC.h
 .\objects\usr_tasks.o: .\HARDWARE\key.h
 .\objects\usr_tasks.o: .\HARDWARE\drv_led.h
+.\objects\usr_tasks.o: .\HARDWARE\usartHmi.h
+.\objects\usr_tasks.o: .\DataScope_DP\DataScope_DP.h
+.\objects\usr_tasks.o: .\DataScope_DP\show.h

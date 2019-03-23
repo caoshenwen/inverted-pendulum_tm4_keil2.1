@@ -1,7 +1,7 @@
 .\objects\uartstdio.o: LIBRARY\utils\uartstdio.c
-.\objects\uartstdio.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\uartstdio.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\uartstdio.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\uartstdio.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\uartstdio.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uartstdio.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\uartstdio.o: .\LIBRARY\inc/hw_ints.h
 .\objects\uartstdio.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\uartstdio.o: .\LIBRARY\inc/hw_types.h
@@ -14,10 +14,10 @@
 .\objects\uartstdio.o: .\LIBRARY\driverlib/uart.h
 .\objects\uartstdio.o: .\LIBRARY\utils/uartstdio.h
 .\objects\uartstdio.o: .\FreeRTOS\my_include.h
-.\objects\uartstdio.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\uartstdio.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\uartstdio.o: D:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\uartstdio.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\uartstdio.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\uartstdio.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\uartstdio.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\uartstdio.o: .\USER\FreeRTOSConfig.h
 .\objects\uartstdio.o: .\FreeRTOS\include\projdefs.h
 .\objects\uartstdio.o: .\FreeRTOS\include\portable.h
@@ -51,3 +51,6 @@
 .\objects\uartstdio.o: .\HARDWARE\ADC.h
 .\objects\uartstdio.o: .\HARDWARE\key.h
 .\objects\uartstdio.o: .\HARDWARE\drv_led.h
+.\objects\uartstdio.o: .\HARDWARE\usartHmi.h
+.\objects\uartstdio.o: .\DataScope_DP\DataScope_DP.h
+.\objects\uartstdio.o: .\DataScope_DP\show.h

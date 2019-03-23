@@ -1,15 +1,15 @@
 .\objects\qei_model.o: HARDWARE\QEI_Model.c
-.\objects\qei_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\qei_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\qei_model.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\qei_model.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\qei_model.o: .\LIBRARY\driverlib/sysctl.h
 .\objects\qei_model.o: .\LIBRARY\driverlib/gpio.h
 .\objects\qei_model.o: .\LIBRARY\driverlib/pin_map.h
 .\objects\qei_model.o: .\LIBRARY\driverlib/qei.h
 .\objects\qei_model.o: .\FreeRTOS\my_include.h
-.\objects\qei_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\qei_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\qei_model.o: D:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\qei_model.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\qei_model.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\qei_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\qei_model.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\qei_model.o: .\USER\FreeRTOSConfig.h
 .\objects\qei_model.o: .\FreeRTOS\include\projdefs.h
 .\objects\qei_model.o: .\FreeRTOS\include\portable.h
@@ -19,7 +19,7 @@
 .\objects\qei_model.o: .\FreeRTOS\include\task.h
 .\objects\qei_model.o: .\FreeRTOS\include\list.h
 .\objects\qei_model.o: .\LIBRARY\utils/uartstdio.h
-.\objects\qei_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\qei_model.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\qei_model.o: .\FreeRTOS\my_include.h
 .\objects\qei_model.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\qei_model.o: .\LIBRARY\inc/hw_ints.h
@@ -49,3 +49,6 @@
 .\objects\qei_model.o: .\HARDWARE\ADC.h
 .\objects\qei_model.o: .\HARDWARE\key.h
 .\objects\qei_model.o: .\HARDWARE\drv_led.h
+.\objects\qei_model.o: .\HARDWARE\usartHmi.h
+.\objects\qei_model.o: .\DataScope_DP\DataScope_DP.h
+.\objects\qei_model.o: .\DataScope_DP\show.h

@@ -1,6 +1,6 @@
 .\objects\gpio.o: LIBRARY\driverlib\gpio.c
-.\objects\gpio.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\gpio.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\gpio.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gpio.o: .\LIBRARY\inc/hw_gpio.h
 .\objects\gpio.o: .\LIBRARY\inc/hw_ints.h
 .\objects\gpio.o: .\LIBRARY\inc/hw_memmap.h

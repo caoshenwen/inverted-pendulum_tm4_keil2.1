@@ -1,6 +1,6 @@
 .\objects\timer.o: LIBRARY\driverlib\timer.c
-.\objects\timer.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\timer.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\timer.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\timer.o: .\LIBRARY\inc/hw_ints.h
 .\objects\timer.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\timer.o: .\LIBRARY\inc/hw_timer.h

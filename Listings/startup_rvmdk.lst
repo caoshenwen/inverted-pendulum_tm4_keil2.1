@@ -603,11 +603,10 @@ ARM Macro Assembler    Page 10
   365 00000000                 END
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=.\objects\startup_rvmdk.d -o.\objects\startup_rvmdk.o -I.\RTE\_
-Flight_Control -ID:\QQPCmgr\Keil_v5\ARM\Pack\Keil\TM4C_DFP\1.1.0\Device\Include
-\TM4C123 -ID:\QQPCmgr\Keil_v5\ARM\CMSIS\Include -ID:\QQPCmgr\Keil_v5\ARM\Pack\K
-eil\TM4C_DFP\1.1.0 --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSI
-ON SETA 526" --predefine="TM4C123GH6PM SETA 1" --list=.\listings\startup_rvmdk.
-lst USER\startup_rvmdk.S
+Flight_Control -ID:\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123 -ID:\AR
+M\CMSIS\Include -ID:\ARM\PACK\Keil\TM4C_DFP\1.1.0 --predefine="__MICROLIB SETA 
+1" --predefine="__UVISION_VERSION SETA 523" --predefine="TM4C123GH6PM SETA 1" -
+-list=.\listings\startup_rvmdk.lst USER\startup_rvmdk.S
 
 
 

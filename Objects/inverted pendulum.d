@@ -1,11 +1,11 @@
 .\objects\inverted pendulum.o: USER\inverted pendulum.c
 .\objects\inverted pendulum.o: .\FreeRTOS\my_include.h
-.\objects\inverted pendulum.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\inverted pendulum.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\inverted pendulum.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\inverted pendulum.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\inverted pendulum.o: D:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\inverted pendulum.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\inverted pendulum.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\inverted pendulum.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\inverted pendulum.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\inverted pendulum.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\inverted pendulum.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\inverted pendulum.o: .\USER\FreeRTOSConfig.h
 .\objects\inverted pendulum.o: .\FreeRTOS\include\projdefs.h
 .\objects\inverted pendulum.o: .\FreeRTOS\include\portable.h
@@ -15,7 +15,7 @@
 .\objects\inverted pendulum.o: .\FreeRTOS\include\task.h
 .\objects\inverted pendulum.o: .\FreeRTOS\include\list.h
 .\objects\inverted pendulum.o: .\LIBRARY\utils/uartstdio.h
-.\objects\inverted pendulum.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\inverted pendulum.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\inverted pendulum.o: .\FreeRTOS\my_include.h
 .\objects\inverted pendulum.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\inverted pendulum.o: .\LIBRARY\inc/hw_ints.h
@@ -48,3 +48,6 @@
 .\objects\inverted pendulum.o: .\HARDWARE\ADC.h
 .\objects\inverted pendulum.o: .\HARDWARE\key.h
 .\objects\inverted pendulum.o: .\HARDWARE\drv_led.h
+.\objects\inverted pendulum.o: .\HARDWARE\usartHmi.h
+.\objects\inverted pendulum.o: .\DataScope_DP\DataScope_DP.h
+.\objects\inverted pendulum.o: .\DataScope_DP\show.h

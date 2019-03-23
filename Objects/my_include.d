@@ -1,11 +1,11 @@
 .\objects\my_include.o: FreeRTOS\my_include.c
 .\objects\my_include.o: FreeRTOS\my_include.h
-.\objects\my_include.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\my_include.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\my_include.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\my_include.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\my_include.o: D:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\my_include.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\my_include.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\my_include.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\my_include.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\my_include.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\my_include.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\my_include.o: .\USER\FreeRTOSConfig.h
 .\objects\my_include.o: .\FreeRTOS\include\projdefs.h
 .\objects\my_include.o: .\FreeRTOS\include\portable.h
@@ -15,7 +15,7 @@
 .\objects\my_include.o: .\FreeRTOS\include\task.h
 .\objects\my_include.o: .\FreeRTOS\include\list.h
 .\objects\my_include.o: .\LIBRARY\utils/uartstdio.h
-.\objects\my_include.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\my_include.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\my_include.o: .\FreeRTOS\my_include.h
 .\objects\my_include.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\my_include.o: .\LIBRARY\inc/hw_ints.h
@@ -48,3 +48,6 @@
 .\objects\my_include.o: .\HARDWARE\ADC.h
 .\objects\my_include.o: .\HARDWARE\key.h
 .\objects\my_include.o: .\HARDWARE\drv_led.h
+.\objects\my_include.o: .\HARDWARE\usartHmi.h
+.\objects\my_include.o: .\DataScope_DP\DataScope_DP.h
+.\objects\my_include.o: .\DataScope_DP\show.h

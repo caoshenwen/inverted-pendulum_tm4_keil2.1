@@ -1,6 +1,6 @@
 .\objects\adc_1.o: LIBRARY\driverlib\adc.c
-.\objects\adc_1.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\adc_1.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adc_1.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\adc_1.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\adc_1.o: .\LIBRARY\inc/hw_adc.h
 .\objects\adc_1.o: .\LIBRARY\inc/hw_ints.h
 .\objects\adc_1.o: .\LIBRARY\inc/hw_memmap.h
@@ -8,10 +8,10 @@
 .\objects\adc_1.o: .\LIBRARY\inc/hw_sysctl.h
 .\objects\adc_1.o: .\LIBRARY\driverlib/adc.h
 .\objects\adc_1.o: .\FreeRTOS\my_include.h
-.\objects\adc_1.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\adc_1.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\adc_1.o: D:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\adc_1.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\adc_1.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\adc_1.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\adc_1.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\adc_1.o: .\USER\FreeRTOSConfig.h
 .\objects\adc_1.o: .\FreeRTOS\include\projdefs.h
 .\objects\adc_1.o: .\FreeRTOS\include\portable.h
@@ -21,7 +21,7 @@
 .\objects\adc_1.o: .\FreeRTOS\include\task.h
 .\objects\adc_1.o: .\FreeRTOS\include\list.h
 .\objects\adc_1.o: .\LIBRARY\utils/uartstdio.h
-.\objects\adc_1.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\adc_1.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\adc_1.o: .\FreeRTOS\my_include.h
 .\objects\adc_1.o: .\LIBRARY\inc/hw_gpio.h
 .\objects\adc_1.o: .\LIBRARY\inc/hw_pwm.h
@@ -50,3 +50,6 @@
 .\objects\adc_1.o: .\HARDWARE\ADC.h
 .\objects\adc_1.o: .\HARDWARE\key.h
 .\objects\adc_1.o: .\HARDWARE\drv_led.h
+.\objects\adc_1.o: .\HARDWARE\usartHmi.h
+.\objects\adc_1.o: .\DataScope_DP\DataScope_DP.h
+.\objects\adc_1.o: .\DataScope_DP\show.h

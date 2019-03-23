@@ -1,6 +1,6 @@
 .\objects\pwm_model.o: HARDWARE\PWM_Model.c
-.\objects\pwm_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\pwm_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\pwm_model.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pwm_model.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\pwm_model.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\pwm_model.o: .\LIBRARY\driverlib/pin_map.h
 .\objects\pwm_model.o: .\LIBRARY\inc/hw_types.h
@@ -9,10 +9,10 @@
 .\objects\pwm_model.o: .\LIBRARY\driverlib/sysctl.h
 .\objects\pwm_model.o: HARDWARE\PWM_Model.h
 .\objects\pwm_model.o: .\FreeRTOS\my_include.h
-.\objects\pwm_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\pwm_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pwm_model.o: D:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\pwm_model.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\pwm_model.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\pwm_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\pwm_model.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\pwm_model.o: .\USER\FreeRTOSConfig.h
 .\objects\pwm_model.o: .\FreeRTOS\include\projdefs.h
 .\objects\pwm_model.o: .\FreeRTOS\include\portable.h
@@ -22,7 +22,7 @@
 .\objects\pwm_model.o: .\FreeRTOS\include\task.h
 .\objects\pwm_model.o: .\FreeRTOS\include\list.h
 .\objects\pwm_model.o: .\LIBRARY\utils/uartstdio.h
-.\objects\pwm_model.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\pwm_model.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\pwm_model.o: .\FreeRTOS\my_include.h
 .\objects\pwm_model.o: .\LIBRARY\inc/hw_ints.h
 .\objects\pwm_model.o: .\LIBRARY\inc/hw_gpio.h
@@ -49,3 +49,6 @@
 .\objects\pwm_model.o: .\HARDWARE\ADC.h
 .\objects\pwm_model.o: .\HARDWARE\key.h
 .\objects\pwm_model.o: .\HARDWARE\drv_led.h
+.\objects\pwm_model.o: .\HARDWARE\usartHmi.h
+.\objects\pwm_model.o: .\DataScope_DP\DataScope_DP.h
+.\objects\pwm_model.o: .\DataScope_DP\show.h

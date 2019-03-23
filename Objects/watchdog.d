@@ -1,6 +1,6 @@
 .\objects\watchdog.o: LIBRARY\driverlib\watchdog.c
-.\objects\watchdog.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\watchdog.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\watchdog.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\watchdog.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\watchdog.o: .\LIBRARY\inc/hw_ints.h
 .\objects\watchdog.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\watchdog.o: .\LIBRARY\inc/hw_types.h

@@ -60,7 +60,7 @@ void task_main(void * pvParameters)
 			case 0: 
 				pwm_value=PIDSpeed_Realize(angle,0);
 			
-				UARTprintf("                                                  pid：%d  \r\n",pwm_value);
+				//UARTprintf("                                                  pid：%d  \r\n",pwm_value);
 				vTaskDelayUntil(&ui32WakeTime, 10 / portTICK_RATE_MS);		
 				break;
 			
@@ -97,8 +97,8 @@ void task_adc(void * pvParameters)
 	{	
 			ADC_Trig();
 			GetUsarthmiCmd(UART1_RX_BUF,&err);
-		    UARTprintf("角度： %d\r\n",angle);
-			
+		    //UARTprintf("角度： %d\r\n",angle);
+			DataScope();
 			SendStrToHmi("t1.txt=");
             SendNumToHmi(angle);
             SendEnd();
@@ -145,7 +145,7 @@ void task_qei(void * pvParameters)
 	
 	while(1)
 	{	
-            UARTprintf("                   速度：%d  \r\n",qei_data_array[0].velocity);
+            //UARTprintf("                   速度：%d  \r\n",qei_data_array[0].velocity);
 			vTaskDelayUntil(&ui32WakeTime, 10 / portTICK_RATE_MS);		
 	}
 }

@@ -1,6 +1,6 @@
 .\objects\mpu.o: LIBRARY\driverlib\mpu.c
-.\objects\mpu.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\mpu.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\mpu.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mpu.o: .\LIBRARY\inc/hw_ints.h
 .\objects\mpu.o: .\LIBRARY\inc/hw_nvic.h
 .\objects\mpu.o: .\LIBRARY\inc/hw_types.h

@@ -48,6 +48,7 @@
 #include "usartHmi.h"	
 
 #include "DataScope_DP.h"
+#include "show.h"
 
 
 

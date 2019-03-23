@@ -1,6 +1,6 @@
 .\objects\interrupt.o: LIBRARY\driverlib\interrupt.c
-.\objects\interrupt.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\interrupt.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\interrupt.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\interrupt.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\interrupt.o: .\LIBRARY\inc/hw_ints.h
 .\objects\interrupt.o: .\LIBRARY\inc/hw_nvic.h
 .\objects\interrupt.o: .\LIBRARY\inc/hw_types.h

@@ -1,7 +1,7 @@
 .\objects\uart_init.o: HARDWARE\UART_Init.c
 .\objects\uart_init.o: HARDWARE\UART_Init.h
-.\objects\uart_init.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\uart_init.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart_init.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\uart_init.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\uart_init.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\uart_init.o: .\LIBRARY\inc/hw_types.h
 .\objects\uart_init.o: .\LIBRARY\inc/hw_gpio.h
@@ -11,12 +11,12 @@
 .\objects\uart_init.o: .\LIBRARY\driverlib/uart.h
 .\objects\uart_init.o: .\LIBRARY\driverlib/interrupt.h
 .\objects\uart_init.o: .\LIBRARY\utils/uartstdio.h
-.\objects\uart_init.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\uart_init.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\uart_init.o: .\FreeRTOS\my_include.h
-.\objects\uart_init.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\uart_init.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\uart_init.o: D:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\uart_init.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\uart_init.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\uart_init.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\uart_init.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\uart_init.o: .\USER\FreeRTOSConfig.h
 .\objects\uart_init.o: .\FreeRTOS\include\projdefs.h
 .\objects\uart_init.o: .\FreeRTOS\include\portable.h
@@ -50,3 +50,6 @@
 .\objects\uart_init.o: .\HARDWARE\ADC.h
 .\objects\uart_init.o: .\HARDWARE\key.h
 .\objects\uart_init.o: .\HARDWARE\drv_led.h
+.\objects\uart_init.o: .\HARDWARE\usartHmi.h
+.\objects\uart_init.o: .\DataScope_DP\DataScope_DP.h
+.\objects\uart_init.o: .\DataScope_DP\show.h

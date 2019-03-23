@@ -2,8 +2,8 @@
 .\objects\main.o: USER\usr_tasks.h
 .\objects\main.o: USER\priorities.h
 .\objects\main.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\main.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\main.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: D:\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: .\USER\FreeRTOSConfig.h
 .\objects\main.o: .\FreeRTOS\include\projdefs.h
 .\objects\main.o: .\FreeRTOS\include\portable.h
@@ -15,11 +15,11 @@
 .\objects\main.o: .\FreeRTOS\include\queue.h
 .\objects\main.o: .\FreeRTOS\include\semphr.h
 .\objects\main.o: .\FreeRTOS\my_include.h
-.\objects\main.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\main.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\main.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: D:\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: .\LIBRARY\utils/uartstdio.h
-.\objects\main.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\main.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\main.o: .\FreeRTOS\my_include.h
 .\objects\main.o: .\LIBRARY\inc/hw_memmap.h
 .\objects\main.o: .\LIBRARY\inc/hw_ints.h
@@ -52,3 +52,6 @@
 .\objects\main.o: .\HARDWARE\ADC.h
 .\objects\main.o: .\HARDWARE\key.h
 .\objects\main.o: .\HARDWARE\drv_led.h
+.\objects\main.o: .\HARDWARE\usartHmi.h
+.\objects\main.o: .\DataScope_DP\DataScope_DP.h
+.\objects\main.o: .\DataScope_DP\show.h

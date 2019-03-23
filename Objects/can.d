@@ -1,6 +1,6 @@
 .\objects\can.o: LIBRARY\driverlib\can.c
-.\objects\can.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\can.o: D:\QQPCmgr\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\can.o: D:\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\can.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\can.o: .\LIBRARY\inc/hw_can.h
 .\objects\can.o: .\LIBRARY\inc/hw_ints.h
 .\objects\can.o: .\LIBRARY\inc/hw_nvic.h
