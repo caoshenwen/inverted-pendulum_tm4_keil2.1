@@ -10,8 +10,6 @@ __error__(char *pcFilename, uint32_t ui32Line)
 #endif
 
 
-
-
 #define START_TASK_PRIO				1
 #define START_STK_SIZE				128
 void start_task(void * pvParameters); 
@@ -64,6 +62,7 @@ int main(void)
 	KEY_init();
 	PWM_Config();
 	QEI_Config();
+	UART1_Init(9600);
 	PID_Speed_Init();
 	
     UARTprintf("\n\nThis is a adc example!\n\n");
@@ -83,7 +82,7 @@ void start_task(void * pvParameters)
 	taskENTER_CRITICAL();
 	
 	
-	
+	// 创建led灯闪烁任务
 	xTaskCreate((TaskFunction_t	) task_blinky,
 				(char*			) "task_blinky",
 				(uint16_t		) TASK_BLINKY_STK_SIZE,

@@ -45,6 +45,9 @@
 #include "drv_led.h"
 #include "adc.h"
 #include "UART_Init.h"
+#include "usartHmi.h"	
+
+#include "DataScope_DP.h"
 
 
 

@@ -6,7 +6,7 @@
  */
 #include "UART_Init.h"
 
-void uart0_intial(void)//串口1接受
+void uart0_intial(void)//串口0接受
 {
    
 

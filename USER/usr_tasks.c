@@ -89,13 +89,19 @@ void task_main(void * pvParameters)
 void task_adc(void * pvParameters)
 {
 	// Get the current tick count.
+	uint8_t err;
 	portTickType ui32WakeTime;
     ui32WakeTime = xTaskGetTickCount();
 	
 	while(1)
 	{	
 			ADC_Trig();
+			GetUsarthmiCmd(UART1_RX_BUF,&err);
 		    UARTprintf("½Ç¶È£º %d\r\n",angle);
+			
+			SendStrToHmi("t1.txt=");
+            SendNumToHmi(angle);
+            SendEnd();
 			vTaskDelayUntil(&ui32WakeTime, 10 / portTICK_RATE_MS);
 	}
 }
