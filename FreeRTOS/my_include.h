@@ -46,10 +46,16 @@
 #include "adc.h"
 #include "UART_Init.h"
 #include "usartHmi.h"	
+#include "drv_oled.h"
+
 
 #include "DataScope_DP.h"
 #include "show.h"
 
+extern int16_t velocity_A;
+extern int16_t PWM;
+extern float   BalancePWM;
+extern float   SpeedPWM;
 
 
 extern void  BSP_SysInit (void);

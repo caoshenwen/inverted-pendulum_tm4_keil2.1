@@ -55,8 +55,9 @@ int main(void)
 {	
 	
     BSP_SysInit();
-	
+	Timer0A_Init(10);
 	LED_Init();
+	OLED_Init();
 	ADC_Init();
 	InitConsole();
 	KEY_init();
@@ -64,9 +65,12 @@ int main(void)
 	QEI_Config();
 	UART1_Init(9600);
 	PID_Speed_Init();
-	
+	PID_Balance_Init();
     UARTprintf("\n\nThis is a adc example!\n\n");
-	
+
+	OLED_Clear();
+
+
 	xTaskCreate((TaskFunction_t	) start_task,
 				(char*			) "start_task",
 				(uint16_t		) START_STK_SIZE,
@@ -82,7 +86,7 @@ void start_task(void * pvParameters)
 	taskENTER_CRITICAL();
 	
 	
-	// 创建led灯闪烁任务
+	// 鍒涘缓led鐏棯鐑佷换鍔?
 	xTaskCreate((TaskFunction_t	) task_blinky,
 				(char*			) "task_blinky",
 				(uint16_t		) TASK_BLINKY_STK_SIZE,
@@ -130,9 +134,10 @@ void start_task(void * pvParameters)
 
 
 	
-				
+	TimerEnable(TIMER0_BASE, TIMER_A);		
 	vTaskDelete(StartTask_Handler);
 	taskEXIT_CRITICAL(); 
+
 }
 
 //*****************************************************************************

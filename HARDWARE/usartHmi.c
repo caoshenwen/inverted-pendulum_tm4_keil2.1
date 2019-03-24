@@ -108,6 +108,8 @@ void UART1IntHandler(void) // 串口0中断服务程序
 void GetUsarthmiCmd (uint8_t UsartRxBuff[], uint8_t *pErr)
 {
 
+	portTickType ui32WakeTime;
+    ui32WakeTime = xTaskGetTickCount();
 	uint8_t *pRxBuff = UsartRxBuff;
 
 	if((pRxBuff[0]&(uint16_t)0x01FF) != 'p')
@@ -120,13 +122,13 @@ void GetUsarthmiCmd (uint8_t UsartRxBuff[], uint8_t *pErr)
 		{
             case 'L':
             GPIOPinWrite(GPIO_PORTF_BASE,GPIO_PIN_1|GPIO_PIN_2,GPIO_PIN_2|GPIO_PIN_1);
-            SysCtlDelay(300*(SysCtlClockGet()/3000));
+           	vTaskDelayUntil(&ui32WakeTime, 1000 / portTICK_RATE_MS);
             GPIOPinWrite(GPIO_PORTF_BASE,GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3,0x00);
-            SysCtlDelay(300*(SysCtlClockGet()/3000));
+            vTaskDelayUntil(&ui32WakeTime, 1000 / portTICK_RATE_MS);
             GPIOPinWrite(GPIO_PORTF_BASE,GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3,GPIO_PIN_2|GPIO_PIN_3);
-            SysCtlDelay(300*(SysCtlClockGet()/3000));
+            vTaskDelayUntil(&ui32WakeTime, 1000 / portTICK_RATE_MS);
             GPIOPinWrite(GPIO_PORTF_BASE,GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3,0x00);
-            SysCtlDelay(300*(SysCtlClockGet()/3000));
+            vTaskDelayUntil(&ui32WakeTime, 1000 / portTICK_RATE_MS);
 
             break;
 

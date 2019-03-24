@@ -52,9 +52,11 @@ void task_main(void * pvParameters)
 	// Get the current tick count.
 	portTickType ui32WakeTime;
     ui32WakeTime = xTaskGetTickCount();
-	
+	uint8_t err;
 	while(1)
 	{	
+		GetUsarthmiCmd(UART1_RX_BUF,&err);
+		OLED_ShowNum(5,5,KeyPress,2,12);
 		switch(KeyPress)	
 		{	
 			case 0: 
@@ -89,19 +91,20 @@ void task_main(void * pvParameters)
 void task_adc(void * pvParameters)
 {
 	// Get the current tick count.
-	uint8_t err;
+
 	portTickType ui32WakeTime;
     ui32WakeTime = xTaskGetTickCount();
 	
 	while(1)
 	{	
 			ADC_Trig();
-			GetUsarthmiCmd(UART1_RX_BUF,&err);
 		    //UARTprintf("½Ç¶È£º %d\r\n",angle);
 			DataScope();
+			taskENTER_CRITICAL();
 			SendStrToHmi("t1.txt=");
             SendNumToHmi(angle);
             SendEnd();
+			taskEXIT_CRITICAL(); 
 			vTaskDelayUntil(&ui32WakeTime, 10 / portTICK_RATE_MS);
 	}
 }
@@ -113,9 +116,10 @@ void task_key(void * pvParameters)
 	// Get the current tick count.
 	portTickType ui32WakeTime;
     ui32WakeTime = xTaskGetTickCount();
-	
+	uint8_t err;
 	while(1)
 	{	
+
             key_scan();
 			vTaskDelayUntil(&ui32WakeTime, 10 / portTICK_RATE_MS);
 	}
@@ -146,6 +150,11 @@ void task_qei(void * pvParameters)
 	while(1)
 	{	
             //UARTprintf("                   ËÙ¶È£º%d  \r\n",qei_data_array[0].velocity);
+			taskENTER_CRITICAL();
+			SendStrToHmi("t2.txt=");
+           	SendNumToHmi(qei_data_array[0].velocity);
+            SendEnd();
+			taskEXIT_CRITICAL(); 
 			vTaskDelayUntil(&ui32WakeTime, 10 / portTICK_RATE_MS);		
 	}
 }

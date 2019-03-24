@@ -16,27 +16,27 @@
 //    SysTickDisable();
 //}
 
-//////////////////////void Timer0A_Init(uint8_t ui8IntTime_ms)//ui8IntTime_ms < 10
-//////////////////////{
-//////////////////////    uint32_t period;
-//////////////////////	
-//////////////////////	SysCtlPeripheralEnable(SYSCTL_PERIPH_TIMER0);
+void Timer0A_Init(uint8_t ui8IntTime_ms)//ui8IntTime_ms < 10
+{
+    uint32_t period;
+	
+	SysCtlPeripheralEnable(SYSCTL_PERIPH_TIMER0);
 
-//////////////////////    TimerConfigure(TIMER0_BASE, TIMER_CFG_SPLIT_PAIR | TIMER_CFG_A_PERIODIC);
+    TimerConfigure(TIMER0_BASE, TIMER_CFG_SPLIT_PAIR | TIMER_CFG_A_PERIODIC);
 
-//////////////////////    TimerPrescaleSet(TIMER0_BASE, TIMER_A, 8 - 1);
+    TimerPrescaleSet(TIMER0_BASE, TIMER_A, 8 - 1);
 
-//////////////////////    //If ui8IntTime_ms = 10, period = 49999
-//////////////////////     period = ui8IntTime_ms*(SysCtlClockGet()/(TimerPrescaleGet(TIMER0_BASE, TIMER_A)+1)/1000) - 1;
-//////////////////////    TimerLoadSet(TIMER0_BASE, TIMER_A, period);//100ms
+    //If ui8IntTime_ms = 10, period = 49999
+    // period = ui8IntTime_ms*(SysCtlClockGet()/(TimerPrescaleGet(TIMER0_BASE, TIMER_A)+1)/1000) - 1;
+    TimerLoadSet(TIMER0_BASE, TIMER_A, 50000);//100ms
 
-//////////////////////    IntPrioritySet(INT_TIMER0A, 1<<5 );
-//////////////////////    TimerIntRegister(TIMER0_BASE, TIMER_A, IntHandler_Timer0);
-//////////////////////    IntEnable(INT_TIMER0A);
-//////////////////////    TimerIntEnable(TIMER0_BASE, TIMER_TIMA_TIMEOUT);
+    IntPrioritySet(INT_TIMER0A, 1);
+    TimerIntRegister(TIMER0_BASE, TIMER_A, IntHandler_Timer0);
+    IntEnable(INT_TIMER0A);
+    TimerIntEnable(TIMER0_BASE, TIMER_TIMA_TIMEOUT);
 
-//////////////////////    TimerDisable(TIMER0_BASE, TIMER_A);
-//////////////////////}
+    TimerDisable(TIMER0_BASE, TIMER_A);
+}
 //void Timer1A_Init(uint8_t ui8IntTime_ms)//ui8IntTime_ms <= 200
 //{
 //    SysCtlPeripheralEnable(SYSCTL_PERIPH_TIMER1);

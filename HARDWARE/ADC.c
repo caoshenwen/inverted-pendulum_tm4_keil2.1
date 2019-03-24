@@ -130,14 +130,12 @@ void ADC0IntHander(void)
     ADCSequenceDataGet(ADC0_BASE, 0, ui32AdcValue);
 
     // Calculate the voltage, unit in mv.
-    angle = ((float)ui32AdcValue[0])*(360.0/4096.0)-98-10;   //-98 ~360-98   
-    //Ch1Value = ((float)ui32AdcValue[1])*(3300.0/4096.0);
+    angle = ((float)ui32AdcValue[0])*(360.0/4096.0)+3;   //修改此值修正angle  
 	
 	if(angle<0)  angle+=360;
     //angle    = (uint16_t)(360*Ch1Value/3300);
 
     // Set the flag.
     bDataReady = true;
-	//
 }
 

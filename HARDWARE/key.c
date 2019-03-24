@@ -14,7 +14,7 @@
 
 
 uint8_t ReadPin;           // Save the value of read from GPIO.
-int  KeyPress ;  // The flag indicates the key is press.
+int  KeyPress =0;  // The flag indicates the key is press.
 
 void KEY_init(void)
 {
